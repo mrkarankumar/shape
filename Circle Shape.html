@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .shape {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+
+            background-color: blue;
+
+        }
+
+
+        .oval {
+
+            height: 100px;
+            width: 200px;
+            background-color: blueviolet;
+            border-radius: 100px/50px;
+
+        }
+
+        .TriangleUpShape {
+
+            width: 0px;
+            height: 0px;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid red;
+        }
+
+        .TriangledownShape {
+
+            width: 0px;
+            height: 0px;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 100px solid black
+        }
+
+        .TriangleLeftShape {
+
+            width: 0px;
+            height: 0px;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-right: 100px solid gold;
+
+        }
+
+        .TrianglerightShape {
+
+            width: 0px;
+            height: 0px;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 100px solid rgb(255, 98, 0);
+
+        }
+
+
+        .TriangleTopLeftShape {
+
+            width: 0px;
+            height: 0px;
+            border-top: 100px solid rgb(255, 98, 0);
+            border-right: 100px solid transparent;
+
+        }
+
+        .triangle-topright {
+            width: 0;
+            height: 0;
+            border-top: 100px solid rgb(0, 255, 119);
+            border-left: 100px solid transparent;
+        }
+
+
+        .triangle-bottom-left {
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid rgb(255, 0, 187);
+            border-right: 100px solid transparent;
+        }
+
+
+
+        .triangle-bottom-right {
+
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid rgb(76, 0, 255);
+            border-right: 100px solid transparent;
+        }
+
+        #curvedarrow {
+            position: relative;
+            width: 0;
+            height: 0;
+            border-top: 9px solid transparent;
+            border-right: 9px solid rgb(255, 0, 0);
+            transform: rotate(10deg);
+            margin-left: 60px;
+        }
+
+
+        #curvedarrow:after {
+            content: "";
+            position: absolute;
+            border: 0 solid transparent;
+            border-top: 3px solid red;
+            border-radius: 20px 0 0 0;
+            top: -12px;
+            left: -9px;
+            width: 12px;
+            height: 12px;
+            transform: rotate(45deg);
+           
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div class="shape">
+
+    </div>
+
+    <br>
+
+    <div class="oval">
+
+    </div>
+    <br>
+
+    <div class="TriangleUpShape">
+
+    </div>
+    <div class="TriangledownShape">
+
+    </div>
+
+    <div class="TriangleLeftShape">
+
+    </div>
+    <br>
+
+    <div class="TrianglerightShape">
+
+    </div>
+    <br>
+
+
+    <div class="TriangleTopLeftShape">
+
+    </div>
+
+
+    <div class="triangle-topright">
+    </div>
+
+    <div class="triangle-bottom-left">
+
+    </div>
+
+    <br>
+
+    <div class="triangle-bottom-right">
+
+    </div>
+
+    <br><br>
+
+    <div id="curvedarrow">
+
+
+    </div>
+
+    <div>
+
+
+    </div>
+
+</body>
+
+</html>
